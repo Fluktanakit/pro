@@ -13,10 +13,10 @@
       <div class="image">
         <img src="../admin/m_img/<?php echo $_SESSION['m_img']; ?>" class="img-circle elevation-2" alt="User Image">
       </div>
-      <div class="info">
+      <!-- <div class="info">
         <a href="index.php" class="d-block"><?php echo $_SESSION['m_name']; ?></a>
 
-      </div>
+      </div> -->
     </div>
     <!-- SidebarSearch Form -->
     <div class="form-inline">
@@ -36,12 +36,12 @@
         with font-awesome or any other icon font library -->
         
         <li class="nav-header">Documentation</li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a href="index.php" class="nav-link <?php if($menu=="index"){echo "active";} ?> ">
             <i class="nav-icon fas fa-tachometer-alt"></i>
             <p>Dashboard</p>
           </a>
-        </li>
+        </li> -->
         <li class="nav-item">
           <a href="member.php" class="nav-link <?php if($menu=="member"){echo "active";} ?> ">
             <i class="nav-icon fas fa-edit"></i>

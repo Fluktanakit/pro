@@ -1,6 +1,6 @@
 <?php 
 if(isset($_GET['comment_id'])){
-    include 'condb.php';
+    include '../condb.php';
 //ประกาศตัวแปรรับค่าจาก param method get
 $comment_id = $_GET['comment_id'];
 $stmt = $conn->prepare('DELETE FROM comment WHERE comment_id=:comment_id');

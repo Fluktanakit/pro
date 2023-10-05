@@ -19,7 +19,7 @@
    //สร้างเงื่อนไขตรวจสอบนามสกุลของไฟล์ที่อัพโหลดเข้ามา
    if($typefile =='.pdf'){
    //โฟลเดอร์ที่เก็บไฟล์
-   $path="../admin/doc_file";
+   $path="../admin/doc_file/";
    //ตั้งชื่อไฟล์ใหม่เป็น สุ่มตัวเลข+วันที่
    $newname = $numrand.$date1.$typefile;
    $path_copy=$path.$newname;

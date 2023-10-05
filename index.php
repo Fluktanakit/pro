@@ -16,7 +16,7 @@
     <!-- Style -->
     <link rel="stylesheet" href="loginform/css/style.css">
 
-    <title>Document PDO V.1</title>
+    <title>ระบบติดตามโครงงานทางเทศโนโลยีสารสนเทศ</title>
   </head>
   <body>
   
@@ -30,7 +30,7 @@
           <div class="col-md-6">
             <div class="form-block">
               <div class="text-center mb-5">
-              <h3>Document <strong>PDO V.1</strong></h3>
+              <h3>ระบบติดตามโครงงานทางเทศโนโลยีสารสนเทศ </h3>
               <!-- <p class="mb-4">Lorem ipsum dolor sit amet elit. Sapiente sit aut eos consectetur adipisicing.</p> -->
               </div>
               <form action="check_login.php" method="post">
@@ -48,7 +48,7 @@
                     <input type="checkbox" checked="checked"/>
                     <div class="control__indicator"></div>
                   </label>
-                  <span class="ml-auto"><a href="#" class="forgot-pass">Forgot Password</a></span> 
+                
                 </div>
 
                 <input type="submit" value="Log In" class="btn btn-block btn-primary">

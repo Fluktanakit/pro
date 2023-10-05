@@ -40,12 +40,12 @@ session_start();
                with font-awesome or any other icon font library -->
          
           <li class="nav-header">ผู้ดูแลระบบ</li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a href="index.php" class="nav-link <?php if($menu=="index"){echo "active";} ?> ">
               <i class="nav-icon fas fa-tachometer-alt"></i>
               <p>สาขาเทคโนโลยีสารสนเทศ</p>
             </a>
-          </li>
+          </li> -->
           <li class="nav-item">
             <a href="department.php" class="nav-link <?php if($menu=="department"){echo "active";} ?> ">
               <i class="nav-icon fas fa-edit"></i>

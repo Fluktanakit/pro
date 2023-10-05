@@ -42,12 +42,12 @@
  
        // exit();
         if ($_SESSION['m_level'] == 'admin') { //เช็คสถานะว่าเป็นแอดมิน
-         header('Location: admin'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+         header('Location: admin/calendar.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
         }elseif ($_SESSION['m_level'] == 'student') { //เช็คสถานะว่าเป็นสมาชิก
-         header('Location: student'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+         header('Location: student/calendar.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
         }
         elseif ($_SESSION['m_level'] == 'teacher') { //เช็คสถานะว่าเป็นสมาชิก
-         header('Location: teacher'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
+         header('Location: teacher/calendar.php'); //login ถูกต้องและกระโดดไปหน้าตามที่ต้องการ
         }    
       }else{ //ถ้า m_username or password ไม่ถูกต้อง
          echo '<script>

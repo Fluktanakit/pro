@@ -45,10 +45,10 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="form-group">
-            <label>แผนกงาน</label>
+            <label>ปีการศึกษา</label>
             <select name="d_name" class="form-control" required>
                  <option value="<?= $row_em['d_name'];?>"><?= $row_em['d_name'];?></option>
-              <option disabled>-เลือกแผนกงาน-</option>
+              <option disabled>-เลือกปีการศึกษา-</option>
               <?php
               include '../condb.php';
               $stmt = $conn->prepare("SELECT* FROM tbl_department");
